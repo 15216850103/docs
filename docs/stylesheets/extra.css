@@ -1,0 +1,4 @@
+/* Keep only the navigation section for the language of the current page. */
+.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--active) {
+  display: none;
+}
